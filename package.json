@@ -1,0 +1,32 @@
+{
+  "name": "hostname-cli",
+  "version": "0.1.1",
+  "description": "Nodejs implementation of GNU hostname",
+  "bin": {
+    "hostname": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokororin/hostname-cli.git"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": ["hostname"],
+  "author": "kokororin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kokororin/hostname-cli/issues"
+  },
+  "homepage": "https://github.com/kokororin/hostname-cli#readme",
+  "dependencies": {
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-kotori": "^0.5.8"
+  },
+	"files": [
+		"cli.js"
+	]
+}
